@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Converjz</string>
+<string name="Drawer">
+    <item>Home</item>
+    <item>Time</item>
+    <item>Temperature</item>
+    <item>Weight</item>
+    <item>Length</item>
+    <item>Money</item>
+    <item>Metric</item>
+    <item>Food</item>
+    <item>Data</item>
+    <item>Frequency</item>
+    <item>Numeral</item>
+    <item>Speed</item>
+    <item>Pressure</item>
+</string>
+<string-array name="Time">
+    <item>From</item>
+    <item>Seconds</item>
+    <item>Minutes</item>
+    <item>Hours</item>
+    <item>Days</item>
+    <item>Weeks</item>
+    <item>Months</item>
+    <item>Years</item>
+    <item>Decades</item>
+    <item>Centuries</item>
+    <item>Millenniums</item>
+</string-array>
+    <string-array name="TimeTo">
+        <item>To</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+        <item>Years</item>
+        <item>Decades</item>
+        <item>Centuries</item>
+        <item>Millenniums</item>
+    </string-array>
+
+<string-array name="Temperature">
+<item>From</item>
+<item>Fahrenheit</item>
+<item>Celsius</item>
+<item>Kelvin</item>
+</string-array>
+    <string-array name="TemperatureTo">
+        <item>To</item>
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="Weight">
+        <item>From</item>
+        <item>Ounces</item>
+        <item>Pounds</item>
+        <item>Stones</item>
+        <item>Tons</item>
+        <item>Newtons</item>
+    </string-array><string-array name="WeightTo">
+    <item>To</item>
+    <item>Ounces</item>
+    <item>Pounds</item>
+    <item>Stones</item>
+    <item>Tons</item>
+    <item>Newtons</item>
+</string-array>
+    <string-array name="Weight2">
+        <item>From</item>
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+    </string-array>
+    <string-array name="Weight2To">
+        <item>To</item>
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+    </string-array>
+    <string-array name="Length">
+        <item>From</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Yards</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="LengthTo">
+        <item>To</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Yards</item>
+        <item>Miles</item>
+    </string-array>
+ <string-array name="Length2">
+        <item>From</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="Length2To">
+        <item>To</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+            <string-array name="Money">
+        <item>From</item>
+        <item>US Dollars</item>
+        <item>Yuan</item>
+        <item>Euros</item>
+        <item>Pounds</item>
+        <item>Yen</item>
+        <item>PK Rupee</item>
+        <item>CAN Dollars</item>
+        <item>MX Pesos</item>
+    </string-array>
+    <string-array name="MoneyTo">
+        <item>To</item>
+        <item>US Dollars</item>
+        <item>Yuan</item>
+        <item>Euros</item>
+        <item>Pounds</item>
+        <item>Yen</item>
+        <item>PK Rupee</item>
+        <item>CAN Dollars</item>
+        <item>MX Pesos</item>
+    </string-array>
+<string-array name="Metric">
+    <item>Unit</item>
+    <item>meters</item>
+    <item>grams</item>
+    <item>liters</item>
+</string-array>
+    <string-array name="Meter">
+    <item>From</item>
+    <item>Meter</item>
+    <item>Kilometer</item>
+    <item>Hectometer</item>
+    <item>Dekameter</item>
+    <item>Decimeter</item>
+    <item>Centimeter</item>
+    <item>Millimeter</item>
+</string-array>
+    <string-array name="MeterTo">
+        <item>To</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Hectometer</item>
+        <item>Dekameter</item>
+        <item>Decimeter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+    </string-array>
+    <string-array name="Liter">
+        <item>From</item>
+        <item>Liter</item>
+        <item>Kiloliter</item>
+        <item>Hectoliter</item>
+        <item>Dekaliter</item>
+        <item>Deciliter</item>
+        <item>Centiliter</item>
+        <item>Milliliter</item>
+    </string-array>
+    <string-array name="LiterTo">
+        <item>To</item>
+        <item>Liter</item>
+        <item>Kiloliter</item>
+        <item>Hectoliter</item>
+        <item>Dekaliter</item>
+        <item>Deciliter</item>
+        <item>Centiliter</item>
+        <item>Milliliter</item>
+    </string-array>
+    <string-array name="Gram">
+        <item>From</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Hectogram</item>
+        <item>Dekagram</item>
+        <item>Decigram</item>
+        <item>Centigram</item>
+        <item>Milligram</item>
+    </string-array>
+    <string-array name="GramTo">
+        <item>To</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Hectogram</item>
+        <item>Dekagram</item>
+        <item>Decigram</item>
+        <item>Centigram</item>
+        <item>Milligram</item>
+    </string-array>
+    <string-array name="Food">
+        <item>From</item>
+        <item>Gallons</item>
+        <item>Quarts</item>
+        <item>Pints</item>
+        <item>Cups</item>
+        <item>Fluid Ounces</item>
+        <item>Tablespoons</item>
+        <item>Tablespoons</item>
+    </string-array>
+    <string-array name="FoodTo">
+        <item>To</item>
+        <item>Gallons</item>
+        <item>Quarts</item>
+        <item>Pints</item>
+        <item>Cups</item>
+        <item>Fluid Ounces</item>
+        <item>Tablespoons</item>
+        <item>Tablespoons</item>
+    </string-array>
+
+</resources>
