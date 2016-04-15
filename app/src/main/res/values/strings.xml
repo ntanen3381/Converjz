@@ -217,5 +217,89 @@
         <item>Tablespoons</item>
         <item>Tablespoons</item>
     </string-array>
+<string-array name="Data">
+    <item>From</item>
+    <item>Bit</item>
+    <item>Byte</item>
+    <item>Kilobit</item>
+    <item>Kilobyte</item>
+    <item>Megabit</item>
+    <item>Megabyte</item>
+    <item>Gigabit</item>
+    <item>Gigabyte</item>
+    <item>Terabit</item>
+    <item>Terabyte</item>
+    <item>Petabit</item>
+    <item>Petabyte</item>
+</string-array>
 
+    <string-array name="DataTo">
+        <item>To</item>
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilobit</item>
+        <item>Kilobyte</item>
+        <item>Megabit</item>
+        <item>Megabyte</item>
+        <item>Gigabit</item>
+        <item>Gigabyte</item>
+        <item>Terabit</item>
+        <item>Terabyte</item>
+        <item>Petabit</item>
+        <item>Petabyte</item>
+    </string-array>
+
+    <string-array name="Frequency">
+        <item>From</item>
+        <item>Hetz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+        <item>Terahertz</item>
+        <item>Petahertz</item>
+    </string-array>
+
+    <string-array name="FrequencyTo">
+        <item>To</item>
+        <item>Hetz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+        <item>Terahertz</item>
+        <item>Petahertz</item>
+    </string-array>
+
+    <string-array name="Speed">
+        <item>From</item>
+        <item>Miles per Hour</item>
+        <item>Foot per Second</item>
+        <item>Meter per Second</item>
+        <item>Kilometer per Hour</item>
+        <item>Knot</item>
+    </string-array>
+
+    <string-array name="SpeedTo">
+        <item>To</item>
+        <item>Miles per Hour</item>
+        <item>Foot per Second</item>
+        <item>Meter per Second</item>
+        <item>Kilometer per Hour</item>
+        <item>Knot</item>
+    </string-array>
+
+    <string-array name="Pressure">
+        <item>From</item>
+        <item>Atmosphere</item>
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>Torr</item>
+    </string-array>
+
+    <string-array name="PressureTo">
+        <item>To</item>
+        <item>Atmosphere</item>
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>Torr</item>
+    </string-array>
 </resources>
