@@ -21,15 +21,18 @@
         android:id = "@+id/Facebook"
         android:orderInCategory="103"
         android:title = "Facebook"
+        android:icon="@mipmap/facebook"
         app:showAsAction = "always" />
     <item
         android:id = "@+id/Twitter"
         android:orderInCategory="104"
         android:title = "Twitter"
+        android:icon="@mipmap/twitter"
         app:showAsAction = "always" />
     <item
         android:id = "@+id/Google"
         android:orderInCategory="105"
         android:title = "Google+"
+        android:icon="@mipmap/google+"
         app:showAsAction = "always" />
 </menu>

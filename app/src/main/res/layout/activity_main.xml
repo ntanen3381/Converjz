@@ -1,34 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="labs.course.converjz.MainActivity">
-
-    <android.support.design.widget.AppBarLayout
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent" >
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <ImageView
+            android:layout_width="710dp"
+            android:layout_height="690dp"
+            android:background="@mipmap/background"
+            android:layout_gravity="center" />
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="match_parent">
 
-    </android.support.design.widget.AppBarLayout>
+            <RelativeLayout
+                android:layout_width="410dp"
+                android:layout_height="690dp"
+                android:layout_gravity="left|top">
 
-    <include layout="@layout/content_main" />
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/relativeLayout1">
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/time"
+                        android:id= "@+id/time"/>
+                </RelativeLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:layout_alignTop="@+id/relativeLayout1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="16dp"
+                    android:id= "@+id/relativeLayout2">
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/temperature"
+                        android:id="@+id/temperature"/>
+                </RelativeLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIME"
+                    android:textSize="28dp"
+                    android:gravity="center"
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/relativeLayout1"
+                    android:layout_alignLeft="@+id/relativeLayout1"
+                    android:layout_alignStart="@+id/relativeLayout1"
+                    android:layout_alignRight="@+id/relativeLayout1"
+                    android:layout_alignEnd="@+id/relativeLayout1"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/text"/>
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/blue"
+        android:dividerHeight="2dp"
+        android:background="#111"/>
+</android.support.v4.widget.DrawerLayout>
