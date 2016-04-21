@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/drawer_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <!-- The main content view -->
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-        <ImageView
-            android:layout_width="710dp"
-            android:layout_height="690dp"
-            android:background="@mipmap/background"
-            android:layout_gravity="center" />
         <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <RelativeLayout
                 android:layout_width="410dp"
-                android:layout_height="690dp"
+                android:layout_height="1400dp"
                 android:layout_gravity="left|top">
 
                 <RelativeLayout
@@ -61,8 +46,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TIME"
-                    android:textSize="28dp"
+                    android:textSize="22dp"
                     android:gravity="center"
+                    android:textColor="@color/black"
                     android:id="@+id/textView"
                     android:layout_below="@+id/relativeLayout1"
                     android:layout_alignLeft="@+id/relativeLayout1"
@@ -71,17 +57,321 @@
                     android:layout_alignEnd="@+id/relativeLayout1"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEMPERATURE"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView2"
+                    android:background="@drawable/text"
+                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignLeft="@+id/relativeLayout2"
+                    android:layout_alignStart="@+id/relativeLayout2"
+                    android:layout_alignRight="@+id/relativeLayout2"
+                    android:layout_alignEnd="@+id/relativeLayout2" />
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout3"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignLeft="@+id/textView"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_marginTop="16dp">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/weight"
+                        android:id="@+id/weight"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout4"
+                    android:layout_alignTop="@+id/relativeLayout3"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_alignStart="@+id/textView2">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/length"
+                        android:id="@+id/length"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WEIGHT"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView3"
+                    android:background="@drawable/text"
+                    android:layout_below="@+id/relativeLayout3"
+                    android:layout_alignRight="@+id/relativeLayout3"
+                    android:layout_alignEnd="@+id/relativeLayout3"
+                    android:layout_alignLeft="@+id/relativeLayout3"
+                    android:layout_alignStart="@+id/relativeLayout3"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LENGTH"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView4"
+                    android:background="@drawable/text"
+                    android:layout_alignTop="@+id/textView3"
+                    android:layout_alignLeft="@+id/relativeLayout4"
+                    android:layout_alignStart="@+id/relativeLayout4"
+                    android:layout_alignRight="@+id/relativeLayout4"
+                    android:layout_alignEnd="@+id/relativeLayout4" />
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout5"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_marginTop="16dp">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/metric"
+                        android:id="@+id/metric"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout6"
+                    android:layout_alignTop="@+id/relativeLayout5"
+                    android:layout_alignLeft="@+id/textView4"
+                    android:layout_alignStart="@+id/textView4">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/money"
+                        android:id="@+id/money"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="METRIC"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView5"
+                    android:background="@drawable/text"
+                    android:layout_below="@+id/relativeLayout5"
+                    android:layout_alignLeft="@+id/relativeLayout5"
+                    android:layout_alignStart="@+id/relativeLayout5"
+                    android:layout_alignRight="@+id/relativeLayout5"
+                    android:layout_alignEnd="@+id/relativeLayout5"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MONEY"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView6"
+                    android:background="@drawable/text"
+                    android:layout_alignTop="@+id/textView5"
+                    android:layout_alignRight="@+id/relativeLayout6"
+                    android:layout_alignEnd="@+id/relativeLayout6"
+                    android:layout_alignLeft="@+id/relativeLayout6"
+                    android:layout_alignStart="@+id/relativeLayout6" />
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout7"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignRight="@+id/textView5"
+                    android:layout_alignEnd="@+id/textView5"
+                    android:layout_marginTop="16dp">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/food"
+                        android:id="@+id/food"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout8"
+                    android:layout_alignTop="@+id/relativeLayout7"
+                    android:layout_alignLeft="@+id/textView6"
+                    android:layout_alignStart="@+id/textView6">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/data"
+                        android:id="@+id/data"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOOD"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView7"
+                    android:background="@drawable/text"
+                    android:layout_below="@+id/relativeLayout7"
+                    android:layout_alignRight="@+id/relativeLayout7"
+                    android:layout_alignEnd="@+id/relativeLayout7"
+                    android:layout_alignLeft="@+id/relativeLayout7"
+                    android:layout_alignStart="@+id/relativeLayout7"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATA"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView8"
+                    android:background="@drawable/text"
+                    android:layout_alignTop="@+id/textView7"
+                    android:layout_alignLeft="@+id/relativeLayout8"
+                    android:layout_alignStart="@+id/relativeLayout8"
+                    android:layout_alignRight="@+id/relativeLayout8"
+                    android:layout_alignEnd="@+id/relativeLayout8" />
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout9"
+                    android:layout_below="@+id/textView7"
+                    android:layout_alignRight="@+id/textView7"
+                    android:layout_alignEnd="@+id/textView7"
+                    android:layout_marginTop="16dp">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/frequency"
+                        android:id="@+id/frequency"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout10"
+                    android:layout_alignTop="@+id/relativeLayout9"
+                    android:layout_alignLeft="@+id/textView8"
+                    android:layout_alignStart="@+id/textView8">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/numeral"
+                        android:id="@+id/numeral"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FREQUENCY"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView9"
+                    android:background="@drawable/text"
+                    android:layout_below="@+id/relativeLayout9"
+                    android:layout_alignRight="@+id/relativeLayout9"
+                    android:layout_alignEnd="@+id/relativeLayout9"
+                    android:layout_alignLeft="@+id/relativeLayout9"
+                    android:layout_alignStart="@+id/relativeLayout9"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NUMERAL"
+                    android:textSize="22dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView10"
+                    android:background="@drawable/text"
+                    android:layout_alignTop="@+id/textView9"
+                    android:layout_alignRight="@+id/relativeLayout10"
+                    android:layout_alignEnd="@+id/relativeLayout10"
+                    android:layout_alignLeft="@+id/relativeLayout10"
+                    android:layout_alignStart="@+id/relativeLayout10" />
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/rounded"
+                    android:id="@+id/relativeLayout"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignLeft="@+id/textView9"
+                    android:layout_alignStart="@+id/textView9">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:background="@mipmap/frequency"
+                        android:id="@+id/button"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+
             </RelativeLayout>
         </ScrollView>
-
-
-    </FrameLayout>
-    <ListView android:id="@+id/left_drawer"
-        android:layout_width="240dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:choiceMode="singleChoice"
-        android:divider="@color/blue"
-        android:dividerHeight="2dp"
-        android:background="#111"/>
-</android.support.v4.widget.DrawerLayout>
