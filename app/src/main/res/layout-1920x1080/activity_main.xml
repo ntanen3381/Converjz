@@ -26,13 +26,13 @@
                 android:layout_gravity="left|top">
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="16dp"
                     android:id="@+id/relativeLayout1">
                     <Button
@@ -43,14 +43,14 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id= "@+id/relativeLayout2"
                     android:layout_above="@+id/textView"
                     android:layout_toRightOf="@+id/relativeLayout3"
                     android:layout_toEndOf="@+id/relativeLayout3"
-                    android:layout_marginLeft="32dp">
+                    android:layout_marginLeft="28dp">
                     <Button
                         android:layout_width="170dp"
                         android:layout_height="170dp"
@@ -91,8 +91,8 @@
                     android:layout_above="@+id/relativeLayout3" />
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout3"
                     android:layout_below="@+id/textView"
@@ -111,8 +111,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout4"
                     android:layout_alignTop="@+id/relativeLayout3"
@@ -161,8 +161,8 @@
                     android:layout_alignEnd="@+id/relativeLayout4" />
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout5"
                     android:layout_below="@+id/textView3"
@@ -181,8 +181,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout6"
                     android:layout_alignTop="@+id/relativeLayout5"
@@ -231,8 +231,8 @@
                     android:layout_alignStart="@+id/relativeLayout6" />
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout7"
                     android:layout_below="@+id/textView5"
@@ -251,8 +251,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout8"
                     android:layout_alignTop="@+id/relativeLayout7"
@@ -301,8 +301,8 @@
                     android:layout_alignEnd="@+id/relativeLayout8" />
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout9"
                     android:layout_below="@+id/textView7"
@@ -321,8 +321,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout10"
                     android:layout_alignTop="@+id/relativeLayout9"
@@ -371,8 +371,8 @@
                     android:layout_alignStart="@+id/relativeLayout10" />
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout11"
                     android:layout_below="@+id/textView9"
@@ -391,8 +391,8 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
                     android:background="@drawable/rounded"
                     android:id="@+id/relativeLayout12"
                     android:layout_alignTop="@+id/relativeLayout11"
@@ -452,7 +452,7 @@
             android:id="@+id/fragment"
             tools:layout="@layout/adview"
             android:layout_below="@+id/textView3"
-            android:layout_marginTop="460dp" />
+            android:layout_marginTop="545dp" />
 
     </FrameLayout>
 
