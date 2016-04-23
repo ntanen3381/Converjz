@@ -1,94 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="labs.course.converjz">
+    package="labs.course.converjz" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Converjz"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat">
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name=".Time"
+            android:label="Time"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Data"
+            android:label="Data"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Food"
+            android:label="Food"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Frequency"
+            android:label="Frequency"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Length"
+            android:label="Length"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Metric"
+            android:label="Metric"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Money"
+            android:label="Money"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Numeral"
+            android:label="Numeral"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Pressure"
+            android:label="Pressure"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".Speed"
+            android:label="Speed"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="SplachScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Time"
-            android:label = "Time"
-            android:windowSoftInputMode="adjustNothing"
-          >
+        <activity
+            android:name=".Temperature"
+            android:label="Temperature"
+            android:windowSoftInputMode="adjustNothing" >
         </activity>
-        <activity android:name=".About"
-            android:label = "About"
-            android:windowSoftInputMode="adjustNothing"
-            >
+        <activity
+            android:name=".Weight"
+            android:label="Weight"
+            android:windowSoftInputMode="adjustNothing" >
         </activity>
-        <activity android:name=".Data"
-            android:label = "Data"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Food"
-            android:label = "Food"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Frequency"
-            android:label = "Frequency"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Length"
-            android:label = "Length"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Metric"
-            android:label = "Metric"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Money"
-            android:label = "Money"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Numeral"
-            android:label = "Numeral"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Pressure"
-            android:label = "Pressure"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Speed"
-            android:label = "Speed"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".SplashScreen"
-            android:label = "SplachScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Temperature"
-            android:label = "Temperature"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
-        <activity android:name=".Weight"
-            android:label = "Weight"
-            android:windowSoftInputMode="adjustNothing"
-            >
-        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

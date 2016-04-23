@@ -33,6 +33,6 @@
         android:id = "@+id/Google"
         android:orderInCategory="105"
         android:title = "Google+"
-        android:icon="@mipmap/google+"
+        android:icon="@mipmap/google"
         app:showAsAction = "always" />
 </menu>
